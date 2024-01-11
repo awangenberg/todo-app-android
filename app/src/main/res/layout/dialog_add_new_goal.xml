@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <EditText
+        android:id="@+id/addGoalTitle"
+        android:layout_width="fill_parent"
+        android:inputType="text"
+        android:hint="@string/goal_hint"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/addGoalDescription"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@id/addGoalTitle"
+        android:gravity="start|top"
+        android:hint="@string/description_hint"
+        android:inputType="textMultiLine" />
+    <Button
+        android:id="@+id/datePickerButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addGoalDescription"
+        android:focusable="false"
+        android:text="@string/chooseDate_button_text"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/datePickerButton"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/dialogCancelButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/cancel_button_text" />
+
+    <Button
+        android:id="@+id/dialogAddButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/add_button_text" />
+    </LinearLayout>
+
+
+</RelativeLayout>

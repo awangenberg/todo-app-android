@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">FinalTest</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_reenter_password">Re enter password</string>
+
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="sign_up_text"><u>Don\'t have an account? Press here to sign up!</u></string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prompt_phone">Phone Number</string>
+    <string name="action_register">Register</string>
+    <string name="action_nickName">Nickname</string>
+    <string name="add_goal_button">Add goal</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="add_button_text">Add</string>
+    <string name="description_hint">Description</string>
+    <string name="goal_hint">Goal</string>
+    <string name="chooseDate_button_text">Choose Date</string>
+    <string name="nr_of_Goals">Finished: %1$d Ongoing: %2$d</string>
+    <string name="todo_dialog_title">Add TODO</string>
+    <string name="goal_dialog_title">Create new goal</string>
+    <string name="did_you_reach_the_goal_question">Did you reach the goal?</string>
+    <string name="no_reschedule">No. Reschedule</string>
+    <string name="yes">Yes</string>
+    <string name="actionbar_title_goalMaker">GoalMaker</string>
+    <string name="actionbar_title_login">Login</string>
+    <string name="actionbar_title_signup">Sign up</string>
+    <string name="item_goals_text">Goals</string>
+    <string name="item_todos_text">Todos</string>
+</resources>
